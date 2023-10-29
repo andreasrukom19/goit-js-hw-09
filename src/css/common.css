@@ -16,3 +16,18 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.wrap {
+  max-width: 300px;
+  margin: 500px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
