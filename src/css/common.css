@@ -105,3 +105,43 @@ img {
   opacity: 0.4;
   cursor: default;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 12px;
+  background-color: #cccccc;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  color: rgb(85, 81, 81);
+  border-radius: 4px;
+  font-size: large;
+  font-weight: 700;
+}
+
+.form button {
+  padding: 8px 12px;
+  color: rgb(85, 81, 81);
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid rgb(95, 91, 91);
+  border-radius: 4px;
+  font-size: large;
+  font-weight: 700;
+}
+
+.form input {
+  padding: 8px 12px;
+  border: 2px black;
+  outline: none;
+  border-radius: 4px;
+}
